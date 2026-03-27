@@ -1,29 +1,64 @@
-# Autotools generated files
-/aclocal.m4
-/autom4te.cache/
-/configure
 
-# Autotools m4 macros and scripts
-/cfg/compile
-/cfg/config.guess
-/cfg/config.h.in
-/cfg/config.h.in~
-/cfg/config.sub
-/cfg/depcomp
-/cfg/install-sh
-/cfg/libtool.m4
-/cfg/ltmain.sh
-/cfg/ltoptions.m4
-/cfg/ltsugar.m4
-/cfg/ltversion.m4
-/cfg/lt~obsolete.m4
-/cfg/missing
+# Python ignorables
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Generated Makefiles
-Makefile.in
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+venv/
+.env
+.env.*
 
-# Build artifacts
-.lastlogin
+# Ignore all directories containing pyvenv.cfg
+**/pyvenv.cfg
+**/*/pyvenv.cfg
 
-# Generated source files
-/source/WanManager/dm_pack_datamodel.c
+# Node.js ignorables
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.env
+.env.test
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
+*.log
+post_process_status.lock
+core
