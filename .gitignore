@@ -27,3 +27,4 @@ Makefile.in
 
 # Generated source files
 /source/WanManager/dm_pack_datamodel.c
+.file_activity_report.json
